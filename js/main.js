@@ -45,14 +45,14 @@ $(window).resize(function(){
 });
 
 // validate
-// $("form").validate({
-// 	rules: {
-// 		name:{
-// 			required: true,
-// 			maxlength: 14
-// 		}
-// 	}
-// });
+ $("form").validate({
+ 	rules: {
+ 		name:{
+ 			required: true,
+ 			maxlength: 14
+ 		}
+ 	}
+ });
 
 // animate при скролее
 new WOW().init();
