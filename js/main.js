@@ -3,7 +3,7 @@ $(".buttom_menu").click(function(){
   	$(".top_menu").fadeToggle(600);
   });
 
-$('.parallax-window').parallax({imageSrc: '../images/web.jpg'});
+$('.parallax-window').parallax({imageSrc: 'images/web.jpg'});
 
 var containerEl = document.getElementById("portfolio_work")
 var mixer = mixitup(containerEl, {
