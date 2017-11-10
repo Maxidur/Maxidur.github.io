@@ -45,11 +45,6 @@ $(window).resize(function(){
 });
 
 // validate
-jQuery.validator.setDefaults({
-  debug: true,
-  success: "valid"
-});
-
 $("form").validate({
 	rules: {
 		name:{
